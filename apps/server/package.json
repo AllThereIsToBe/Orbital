@@ -1,0 +1,14 @@
+{
+  "name": "@orbital/server",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.mjs",
+    "start": "node src/server.mjs"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.8.0",
+    "node-ical": "^0.20.1",
+    "pdfjs-dist": "^5.4.394"
+  }
+}

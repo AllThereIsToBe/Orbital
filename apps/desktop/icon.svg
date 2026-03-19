@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title>Orbital icon</title>
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffd3df" />
+      <stop offset="55%" stop-color="#f6aac8" />
+      <stop offset="100%" stop-color="#b468ea" />
+    </linearGradient>
+    <linearGradient id="ring" x1="15%" x2="85%" y1="10%" y2="90%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f7f0ff" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="132" fill="url(#bg)" />
+  <circle cx="256" cy="256" r="88" fill="none" stroke="url(#ring)" stroke-width="30" />
+  <ellipse
+    cx="256"
+    cy="256"
+    rx="188"
+    ry="86"
+    fill="none"
+    stroke="url(#ring)"
+    stroke-width="20"
+    transform="rotate(-18 256 256)"
+  />
+  <circle cx="355" cy="196" r="22" fill="#ffffff" />
+  <circle cx="256" cy="256" r="22" fill="#ffffff" />
+</svg>

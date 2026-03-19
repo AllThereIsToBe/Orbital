@@ -1,0 +1,13 @@
+{
+  "name": "@orbital/desktop",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "tauri:dev": "tauri dev",
+    "tauri:build": "./scripts/package-macos.sh",
+    "tauri:bundle": "tauri build --bundles app"
+  },
+  "dependencies": {
+    "@tauri-apps/cli": "^2.10.1"
+  }
+}

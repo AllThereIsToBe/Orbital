@@ -1,0 +1,12 @@
+{
+  "name": "@orbital/storage",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@orbital/domain": "*"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  }
+}

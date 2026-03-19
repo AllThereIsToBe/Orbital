@@ -1,0 +1,18 @@
+{
+  "name": "orbital",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace @orbital/client",
+    "build": "npm run build --workspace @orbital/client",
+    "lint": "npm run lint --workspace @orbital/client",
+    "test": "node --test --experimental-strip-types packages/storage/src/providerSecretStore.test.ts apps/server/src/providerSecrets.test.mjs apps/client/src/components/richContentMath.test.ts",
+    "server:dev": "npm run dev --workspace @orbital/server",
+    "server:start": "npm run start --workspace @orbital/server",
+    "tauri:dev": "npm run tauri:dev --workspace @orbital/desktop",
+    "tauri:build": "npm run tauri:build --workspace @orbital/desktop"
+  }
+}
